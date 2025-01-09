@@ -1,0 +1,524 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+body
+{   
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: rgb(2, 2, 2);
+}
+.logo
+{
+    padding: 1.2rem 7rem;
+    font-size: 1.7rem;
+    color: black;
+    transition: 0.3s ease;
+}
+.logo:hover
+{
+    transform: scale(1.1);
+}
+.logo span
+{
+   color: red;
+   font-weight: bold; 
+}
+.weclome
+{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 3rem;
+    text-decoration: underline;
+
+}
+.weclome span
+{
+    margin-left: 0.6rem;
+    color: rgba(255, 0, 0, 0.962);
+    text-decoration: underline;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    background-color: aqua;
+}
+.hamburger
+{
+    color: white;
+    width: 30px;
+    height: 20px;
+    display: none;
+}
+.navbar
+{
+    padding-right: 3rem;
+}
+.navbar a{
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: black;
+    
+   
+}
+.navbar a:hover
+{
+    border-bottom: 3px solid black;
+}  
+.navbar a.active{
+    border-bottom: 3px solid black;
+}
+.home-content{
+     color: white;
+     padding: 8rem 6rem;
+     width: 60vw;
+     position: relative;
+     bottom: 5rem;
+}
+.home-image-info
+{
+     position: relative;
+     bottom: 5rem;   
+}
+.home-content h1{
+    font-size: 3rem;
+}
+.home-content span
+{
+    color: aqua;
+}
+.text-animation{
+    font-size: 2rem;
+}
+.home-content p
+{
+    font-size: 1rem;
+    padding-top: 1rem;
+   
+}
+.btn-group
+{
+    padding-top: 1rem;
+}
+.btn
+{
+    margin-right: 1rem;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 0.6rem;
+    background-color: black;
+    color: white;
+    transition: 0.3s ease;
+    border: 2px solid aqua;
+}
+.btn:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8rem;
+}
+.home-image
+{
+   
+    padding: 8rem;
+    padding-right:  10rem;
+    border: 5px solid rgba(0, 255, 255, 0.45);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 100px;
+    
+
+}
+.home-img{
+    
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 6rem;
+    right: 5rem;
+}
+.about-content
+{
+    color: white;
+}
+
+.person-image
+{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 2px solid aqua;
+    box-shadow: 2px 2px 40px -14px aqua;
+    filter: brightness(0.5);
+    transition: 0.3s ease;
+
+}
+.person-image:hover
+{
+    filter: brightness(0.9);
+}
+.about
+{
+    padding-top: 5rem;
+}
+.about-content
+{
+    display: flex;
+    justify-content: space-around;
+}
+.card1 h2{
+    font-size: 2rem;
+    padding-bottom: .2rem;
+}
+.card1 span{
+    font-size: 1.3rem;
+    font-weight: bold;
+    position:relative;
+    bottom: 0.9rem;
+}
+.card1
+{
+    border: 2px solid rgba(0, 255, 255, 0.227);
+    font-size: 1.2rem;
+    padding: 0.9rem;
+    color: white;
+    border-radius: 1.8rem;
+    transition: 0.3s ease;
+    margin-bottom: 4rem;
+}
+.Gallery
+{
+    height: 200px;
+    border-radius: 40px 20px 40px;
+}
+.card1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.about h1{
+    font-size: 2.4rem;
+    color: aqua;
+    text-align: center;
+    padding-bottom: 5rem;
+    text-decoration: underline;
+}
+.about-image h2{
+    text-align: center;
+    font-size: 2rem;
+    color: aqua;
+    padding: 2rem;
+}
+.services h1{
+    color:aqua;
+    text-align: center;
+    padding: 3rem;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.service-image{
+    width: 50px;
+    height: 50px;
+}
+.services{
+    padding: 2rem;
+}
+.services-container
+{  
+    display: flex;
+    color: black;
+}
+.services-card1{
+    padding: .8rem;
+    margin: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 2rem;
+    border: 3px solid aqua;
+    transition: 0.3s ease;
+    width: 50vw;
+}
+.services-card1:hover{
+    transform: scale(1.1);
+    box-shadow: none;
+}
+.services-container2
+{
+    display: flex;
+}
+.my
+{
+    color: aqua;
+    text-decoration: underline;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+.myproject
+{
+    overflow-x: scroll;
+    display: flex;
+
+}
+.myproject span{
+    color: red;
+}
+.myproject h3
+{
+    color:aqua;
+    text-align: center;
+}
+.project
+{
+    margin: 1rem;
+}
+.pro-image
+{
+    height: 300px;
+}
+.contact
+{
+    padding: 2rem;
+}
+#svg-img
+{
+    width: 50vw;
+    height: 70vh;
+    position: relative;
+    bottom: 5rem;
+}
+.contact
+{
+    padding-top: 5rem;
+}
+.contact h1
+{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+}
+.contact span
+{
+    color: red;
+}
+.contact-data
+{
+    width: 15vw;
+    height: 4vh;
+    margin-top: 0.2rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    color: black;
+    font-weight: bold;
+}
+.contact-info
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+#area
+{
+    margin-top: 0.2rem;
+    border-radius: 0.3rem;
+    padding: 0.1rem;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+.send-btn
+{
+    display: flex;
+    justify-content: center;
+}
+.send-btn button
+{
+   
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    color: black;
+}
+.send-btn button:hover
+{
+    cursor: pointer;
+}
+.social-media
+{
+    position: relative;
+    bottom: 8rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 7rem;
+}
+.twitter
+{
+    width: 50px;
+    height: 50px;
+    margin-right: 9px;
+    filter: brightness(0.2);
+    border-radius: 50%;
+}
+.twitter:hover
+{
+    filter: brightness(0.7);
+}
+
+@media (max-width:425px)
+{
+    body{
+        width: 150vw;
+    }
+    .header
+    {
+        position: static;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .logo{
+        font-size: 2rem;
+        display: flex;
+        padding-left: 2rem;
+    }
+    .logo span{
+        margin-left: 1rem;
+    }
+    .hamburger
+    {
+        display:block;
+        height: 30px;
+        width: 40px;
+        margin-left: 3rem;
+    }
+    .navbar
+    {
+        display: flex;
+        margin-left:2rem;
+    }
+    .navbar a{
+        margin: 6px;
+        display: none;
+    }
+    .home
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding-top: 9rem;
+    }
+    .home-image{
+        margin-left: 5rem;
+    }
+    .home-content
+    {
+        width: 100%;
+    }
+    .about-content
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .person-image
+    {
+        margin-left: 6rem;
+    }
+    .about{
+        padding-left: 1rem;
+    }
+    .Gallery
+    {
+        width: 100%;
+        padding: 1rem;
+    }
+    .card1
+    {
+        margin: 1rem;
+        font-size: 1.3rem;
+        padding: 1rem;
+        line-height: 1.9rem;
+    }
+    .services-card1
+    {
+        width: 95%;
+    }
+    .service-image
+    {
+        width: 50px;
+        height: 50px;
+    }
+    .services-container,.services-container2
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .services-card1 h2
+    {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 0.2rem;
+    }
+    .services-card1 p{
+        font-size: 1.4rem;
+    }
+    .myproject
+    {
+        flex-direction: column;
+        overflow-x: hidden;
+        margin-right: 1rem;
+    }
+    .contact-info
+    {
+        flex-direction: column;
+    }
+    .contact-data
+    {
+       width: 100%;
+    } 
+    #area{
+        width: 100%;
+    }
+    .contact-image
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5rem;
+    }
+    #svg-img
+    {
+        width: 100vw;
+        height: 100vw;
+    }
+    .social-media
+    {
+        margin-left: 9rem;
+    }
+}
